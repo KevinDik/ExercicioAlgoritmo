@@ -20,7 +20,6 @@ def cabecalho(txt):
 
 
 def menu(lista):
-    cabecalho('Menu principal')
     controle = 1
     for item in lista:
         print(f'[{controle}] - {item}')

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f411759-a005-4bce-9b7d-bcce189b3ce2" name="Default Changelist" comment="" />
+    <list default="true" id="3f411759-a005-4bce-9b7d-bcce189b3ce2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/questaoUm/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Program.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/menu/__init__.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/exerciciosAlgoritmo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aGxMWdkypvsyT2rtPNpJJPE6Ye" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -70,27 +76,36 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/exerciciosAlgoritmo" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1586378289211">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1586456650405">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586378289211" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1586382006106">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586456650405" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1586463459099">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586382006106" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1586382006106">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586463459099" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1586463459099">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586382006106" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1586382006106">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586463459099" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1586463459099">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586382006106" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1586382006106">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586463459099" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1586463459099">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586382006106" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586463459099" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1586456660086">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586456660086" />
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586456148785">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -1,13 +1,26 @@
-from menu import menu
+from menu import menu, cabecalho
 from time import sleep
+from questaoUm import grauvertice
 sleep(1)
 while True:
     sleep(1)
+    cabecalho('Exercicio de Algoritmo')
+    sleep(0.70)
     resposta = menu(['Primeira questão', 'Segunda questão', 'Terceira Questão', 'SAIR'])
     if resposta == 1:
-        print('1 ) Dada a figura anexada, faça um algoritmo para calcular o grau de cara vértice,'
-              ' os vizinhos de cada vértice e a (Menor e a maior ligação entre dois vértices do gráfico).')
-
+        while True:
+            print('1 ) Dada a figura anexada, faça um algoritmo para calcular o grau de cara vértice,'
+                  ' os vizinhos de cada vértice e a (Menor e a maior ligação entre dois vértices do gráfico).')
+            opc = menu(['Ver o grau de cada vertice', 'Ver os vizinhos de cada vertice',
+                        'Maior / Menor ligação de dois vertices', 'Retornar ao MENU principal'])
+            if opc == 1:
+                grauvertice()
+                sleep(0.70)
+            elif opc == 4:
+                print('RETORNANDO AO MENU PRINCIPAL')
+                break
+            else:
+                print('Opção inválida, escolha somente os intens no menu')
     elif resposta == 2:
         print('2 ) De acordo com o grafo orientado da figura anexada, '
               'faça um algoritmo que diga quais os graus entradas e saídas de cada vértice. \n'
