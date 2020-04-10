@@ -1,6 +1,7 @@
 from menu import menu, cabecalho
 from time import sleep
 from questaoUm import grauvertice, vizinhovertice, maiormenorvertice
+from questaoTres import policiaeladrao
 sleep(1)
 while True:
     sleep(1)
@@ -40,7 +41,8 @@ while True:
               'Os ladrões devem se esconder e a polícia deve capturá-los. \n'
               'Caso a polícia consiga capturá-los e prendê-los os ladrões perdem o jogo e '
               'caso a polícia não consiga capturá-los os ladrões vencem o jogo.')
-
+        policiaeladrao()
+        sleep(0.75)
     elif resposta == 4:
         print('SAINDO do programa', end='')
         for final in range(1, 4):

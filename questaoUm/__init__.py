@@ -77,17 +77,17 @@ Grau de L ------------ Total: {graul}''')
 
 def vizinhovertice():
     print(f"""Vizinho do vertice A ------------ (B, C, J)
-Vizinho do vertice B ------------ (A, C, D, E)
-Vizinho do vertice C ------------ (A, B, E, G)
-Vizinho do vertice D ------------ (B, G)
-Vizinho do vertice E ------------ (B, C, F, K)
-Vizinho do vertice F ------------ (E, G, H, K)
-Vizinho do vertice G ------------ (D, F, H, I)
-Vizinho do vertice H ------------ (F, G, J)
-Vizinho do vertice I ------------ (G, J, K, L)
-Vizinho do vertice J ------------ (A, H, I)
-Vizinho do vertice K ------------ (E, F, I, L)
-Vizinho do vertice L ------------ (I, K)""")
+Ligação do vertice B ------------ (A, C, D, E)
+Ligação do vertice C ------------ (A, B, E, G)
+Ligação do vertice D ------------ (B, G)
+Ligação do vertice E ------------ (B, C, F, K)
+Ligação do vertice F ------------ (E, G, H, K)
+Ligação do vertice G ------------ (D, F, H, I)
+Ligação do vertice H ------------ (F, G, J)
+Ligação do vertice I ------------ (G, J, K, L)
+Ligação do vertice J ------------ (A, H, I)
+Ligação do vertice K ------------ (E, F, I, L)
+Ligação do vertice L ------------ (I, K)""")
 
 
 def maiormenorvertice():
