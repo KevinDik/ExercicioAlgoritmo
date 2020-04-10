@@ -1,6 +1,6 @@
 from menu import menu, cabecalho
 from time import sleep
-from questaoUm import grauvertice
+from questaoUm import grauvertice, vizinhovertice, maiormenorvertice
 sleep(1)
 while True:
     sleep(1)
@@ -15,12 +15,19 @@ while True:
                         'Maior / Menor ligação de dois vertices', 'Retornar ao MENU principal'])
             if opc == 1:
                 grauvertice()
-                sleep(0.70)
+                sleep(0.7)
+            elif opc == 2:
+                vizinhovertice()
+                sleep(0.7)
+            elif opc == 3:
+                maiormenorvertice()
+                sleep(0.75)
             elif opc == 4:
                 print('RETORNANDO AO MENU PRINCIPAL')
                 break
             else:
                 print('Opção inválida, escolha somente os intens no menu')
+                sleep(0.75)
     elif resposta == 2:
         print('2 ) De acordo com o grafo orientado da figura anexada, '
               'faça um algoritmo que diga quais os graus entradas e saídas de cada vértice. \n'

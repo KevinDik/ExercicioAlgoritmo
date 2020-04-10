@@ -1,10 +1,13 @@
 from menu import cabecalho, linha
 
 
+grau = ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'l')
+vertice = {'ab': 16, 'ac': 10, 'aj': 12, 'bc': 7, 'bd': 13, 'be': 2, 'ce': 1,
+           'cg': 21, 'dg': 15, 'ef': 9, 'ek': 4, 'fg': 3, 'fh': 20, 'fk': 8,
+           'gh': 18, 'gi': 17, 'hj': 19, 'ij': 5, 'ik': 6, 'il': 14, 'kl': 11}
+
+
 def grauvertice():
-    grau = ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'l')
-    vertice = ('ab', 'ac', 'aj', 'bc', 'bd', 'be', 'ce', 'cg', 'dg', 'ef',
-               'ek', 'fg', 'fh', 'fk', 'gh', 'gi', 'hj', 'ij', 'ik', 'il', 'kl')
     print(f'Graus: {grau}')
     print(f'Vertices: {vertice}')
     graua = graub = grauc = graud = graue = grauf = graug = grauh = graui = grauj = grauk = graul = 0
@@ -70,3 +73,23 @@ Grau de J ------------ Total: {grauj}
 Grau de K ------------ Total: {grauk}
 Grau de L ------------ Total: {graul}''')
     print(linha())
+
+
+def vizinhovertice():
+    print(f"""Vizinho do vertice A ------------ (B, C, J)
+Vizinho do vertice B ------------ (A, C, D, E)
+Vizinho do vertice C ------------ (A, B, E, G)
+Vizinho do vertice D ------------ (B, G)
+Vizinho do vertice E ------------ (B, C, F, K)
+Vizinho do vertice F ------------ (E, G, H, K)
+Vizinho do vertice G ------------ (D, F, H, I)
+Vizinho do vertice H ------------ (F, G, J)
+Vizinho do vertice I ------------ (G, J, K, L)
+Vizinho do vertice J ------------ (A, H, I)
+Vizinho do vertice K ------------ (E, F, I, L)
+Vizinho do vertice L ------------ (I, K)""")
+
+
+def maiormenorvertice():
+    print(f'Maior ligação de vertice: {max(vertice.keys())} correspode ao valor: {max(vertice.values())}')
+    print(f'Menor ligação de vertice: {min(vertice.keys())} correspode ao valor: {min(vertice.values())}')
