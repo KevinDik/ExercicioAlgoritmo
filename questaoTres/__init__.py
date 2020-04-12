@@ -5,18 +5,17 @@ def policiaeladrao():
     from random import randint
     policia = []
     ladrao = []
-    jogadores = []
     cabecalho('JOGO Policia e Ladrão')
     partida = leiaInt('Quantos jogadores irão participar? ')
+    controle = randint(1, 2)
     for part in range(1, partida + 1):
-        jogadores.append(str(input('Digite seu nome: ')))
-    while policia == [] and ladrao == []:
-        for pessoa in jogadores:
-            controle = randint(1, 2)
-            if controle == 1:
-                policia.append(pessoa)
-            else:
-                ladrao.append(pessoa)
+        jogadores = (str(input('Digite seu nome: ')))
+        if controle == 1:
+            policia.append(jogadores)
+            controle += 1
+        else:
+            ladrao.append(jogadores)
+            controle -= 1
     cabecalho('Lista de jogadores')
     for pos, pessoas in enumerate(policia):
         print(f'Policia {pos} -------------- {pessoas}')
@@ -37,7 +36,3 @@ def policiaeladrao():
         if proucurar == esconderijo:
             print('Ladrão encontrado')
             break
-
-
-
-
