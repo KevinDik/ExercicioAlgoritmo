@@ -22,17 +22,25 @@ def policiaeladrao():
     for pos, pessoas in enumerate(ladrao):
         print(f'Ladrão {pos} -------------- {pessoas}')
 
-    cabecalho('O ladrão se esconde')
-    esconderijo = []
-    proucurar = []
+    cabecalho('Vez do time ladrão')
+    chave = []
     for pessoa in ladrao:
         print(f'{pessoa} ESCOLHA UM LUGAR')
-        esconderijo = menu(['Sala', 'Quarto', 'Garagem', 'Cozinha', 'Sotão', 'Porão', 'Quintal', 'Banheiro'])
-    while True:
-        cabecalho('A Policia proucura')
+        locais = menu(['Sala', 'Quarto', 'Garagem', 'Cozinha', 'Sotão', 'Porão', 'Quintal', 'Banheiro'])
+        chave.append(locais)
+    while chave:
+        key = 0
+        cabecalho('Vez do time policia')
         for pessoa in policia:
+            if not chave:
+                break
             print(f'{pessoa} ESCOLHA UM LUGAR')
-            proucurar = menu(['Sala', 'Quarto', 'Garagem', 'Cozinha', 'Sotão', 'Porão', 'Quintal', 'Banheiro'])
-        if proucurar == esconderijo:
-            print('Ladrão encontrado')
-            break
+            proucura = menu(['Sala', 'Quarto', 'Garagem', 'Cozinha', 'Sotão', 'Porão', 'Quintal', 'Banheiro'])
+            for valor in chave:
+                key = int(valor)
+                if key == proucura:
+                    print('Ladrão encontrado')
+                    chave.remove(proucura)
+            if key != proucura:
+                print('Desculpe, Não há ninguem nesse local')
+    print('JOGO ENCERRADO')
