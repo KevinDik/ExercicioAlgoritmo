@@ -2,6 +2,7 @@ from menu import menu, cabecalho
 from time import sleep
 from questaoUm import grauvertice, vizinhovertice, maiormenorvertice
 from questaoTres import policiaeladrao
+from questaoDois import entradaesaida
 sleep(1)
 while True:
     sleep(1)
@@ -33,7 +34,8 @@ while True:
         print('2 ) De acordo com o grafo orientado da figura anexada, '
               'faça um algoritmo que diga quais os graus entradas e saídas de cada vértice. \n'
               'Ainda diga quais os vértices que tem ligação de entrada para cada nó.')
-
+        entradaesaida()
+        sleep(0.75)
     elif resposta == 3:
         print('3) Mario adora convidar seus amigos para brincar em sua casa. '
               'Então decidiu convidar seus amigos para brincarem de polícia e ladrão. \n'
